@@ -1,0 +1,22 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+'atom-workspace':
+  'ctrl-alt-1': 'atom-mark:beginningConditionalSpace'
+  'ctrl-alt-2': 'atom-mark:endConditionalSpace'
+  'ctrl-alt-3': 'atom-mark:clearSelect'
+  'ctrl-alt-7': 'atom-mark:captureInput'
+
+  'ctrl-alt-shift-up': 'atom-mark:up'
+  'ctrl-alt-shift-right': 'atom-mark:right'
+  'ctrl-alt-shift-down': 'atom-mark:down'
+  'ctrl-alt-shift-left': 'atom-mark:left'
+
+  'ctrl-alt-8': 'atom-mark:toggle'
+  'ctrl-alt-9': 'atom-mark:foo'
